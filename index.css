@@ -14,6 +14,8 @@ body{
 #Q12{
     background-image: url(images/background.png);
     background-size: cover; 
+    padding: 0;
+    margin: 0;
 }
 .hd{
     background: #772D8B;
