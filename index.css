@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+body{
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+.container-fluid{
+    padding: 0;
+}
+.head{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#Q12{
+    background-image: url(images/background.png);
+    background-size: cover; 
+}
+.hd{
+    background: #772D8B;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    /* position: fixed; */
+    /* top: 0; */
+    /* width: 100%; */
+}
+.moreinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 30px;
+    padding-left: 7%;
+}
+#hd1{
+    color: #FFC42D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    width: fit-content;
+}
+#hd2{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    width: fit-content;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.icons > img{
+    width: min-content;
+    height: auto;
+}
+#fb{
+    height: min-content;
+    width: auto;
+}
+nav > div{
+    display: flex;
+    align-items: center;
+}
+.navlink{
+    display: flex;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color : #FFFFFF;
+}
+.button{
+    background: #EE2B7A;
+}
+.links{
+    margin-bottom: 100px;
+    background: #00000042;
+}
+.loginbox{
+    background: #373737C9;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    justify-content: center;
+}
+.usercred{
+    color: #848484;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0;
+    width: 80%;
+    height: 45px;
+    padding: 0 15px;
+    font-size: 14px;
+}
+.lgbhd{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+}
+.fgpw{
+    color: #B6C4DA;
+    font-size: 12px;
+}
+.newact{
+    color: #F8F5F5;
+    font-size: 12px;
+}
+.newact > a{
+    color: #EE2B7A;
+}
+.submitbtn{
+    margin: 35px 0 10px 0;
+    background: #EE2B7A;
+    width: 80%;
+    height: 45px;
+    color: white;
+    font-size: 14px;
+}
+.caption{
+    color: #FFFFFF;
+}
+.caption > h1{
+    font-weight: 300;
+    font-size: 4.125rem;
+    font-style: normal;
+}
+.caption > p{
+    font-weight: 400;
+    font-size: 2.5rem;
+    font-style: normal;
+}
+#Q12{
+    padding-top: 250px;
+    padding-bottom: 200px;
+}
+.call{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.call > p{
+    margin: 0;
+}
+.call > p:first-of-type{
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+    font-style: normal;
+}
+.call > p:nth-of-type(2){
+    font-size: 19px;
+    color: #FFC42D;
+    font-weight: 600;
+    font-style: normal;
+}
+.abt{
+    max-width: 90%;
+}
+#about_us{
+    margin: 100px 0;
+}
+.aboutuscntt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 5.2%;
+}
+.abouthd{
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    color: #995AAA;
+}
+.aboutsubhd{
+    font-size: 40px;
+    font-weight: 300;
+    font-style: normal;
+    color: #474747;
+}
+.abouttxt{
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+}
+.servicehd{
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    color: #995AAA;
+    text-align: center;
+}
+.servicesubhd{
+    font-size: 40px;
+    font-weight: 300;
+    font-style: normal;
+    color: #474747;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.services{
+    margin: 40px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 40px 15px;
+    /* height: 377px; */
+    background: #FFFFFF;
+    box-shadow: 2px 4px 26px rgba(0, 0, 0, 0.07);
+    align-items: center;
+    /* justify-content: center; */
+}
+.serviceimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 106px;
+    height: 106px;
+    background: #772D8B;
+}
+.servicetitle{
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    color: #565656;
+    margin: 90px 0 35px;
+}
+.servicedescription{
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+}
+.workflow{
+    background-image: url(images/work_flow.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(57, 7, 70, 0.74);
+}
+.workflowhd{
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    color: #D2CECE;
+    text-align: center;
+}
+.workflowsubhd{
+    font-size: 40px;
+    font-weight: 300;
+    font-style: normal;
+    color: #474747;
+    text-align: center;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+    .lgbhd{
+        font-size: 24px;
+    }
+    .usercred{
+        font-size: 20px;
+    }
+    .fgpw{
+        font-size: 18px;
+    }
+    .submitbtn{
+        font-size: 20px;
+    }
+    .newact{
+        font-size: 18px;
+    }
+    .caption{
+        margin-bottom: 50px;
+    }
+    .abouthd{
+        font-size: 20px;
+    }
+    .aboutsubhd{
+        font-size: 46px;
+    }
+    .abouttxt{
+        line-height: 1.5;
+        font-size: 24px;
+        font-weight: 300;
+    }
+    .aboutimg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .services{
+        flex-wrap: wrap;
+    }
+    .service{
+        width: 40%;
+        margin: 30px 0;
+    }
+    .servicetitle{
+        font-size: 24px;
+    }
+    .servicedescription{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .caption > h1{
+        font-size: 60px;
+    }
+    .caption > p{
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+    .usercred, .submitbtn{
+        width: 85%;
+    }
+    .newact, .fgpw{
+        font-size: 14px;
+    }
+    #hd1, #hd2{
+        font-size: 7.5px;
+    }
+    .aboutimg > img {
+        width: 90%;
+        height: auto;
+    }
+    .service{
+        width: 80%;
+    }
+}
