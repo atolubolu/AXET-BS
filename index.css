@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;700&display=swap');
 body{
     overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
@@ -217,11 +217,9 @@ a{
     flex-direction: column;
     width: 20%;
     padding: 40px 15px;
-    /* height: 377px; */
     background: #FFFFFF;
     box-shadow: 2px 4px 26px rgba(0, 0, 0, 0.07);
     align-items: center;
-    /* justify-content: center; */
 }
 .serviceimg{
     display: flex;
@@ -260,9 +258,45 @@ a{
     font-size: 40px;
     font-weight: 300;
     font-style: normal;
-    color: #474747;
+    color: #FFFFFF;
     text-align: center;
     margin-bottom: 30px;
+}
+.work-flow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15.3%;
+}   
+.workimg{
+    display: flex;
+    border-radius: 50%;
+    border: #EE2B7A 5px solid;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+}
+.workhd{
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.worktxt{
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
 }
 @media screen and (max-width: 768px) {
     .lgbhd{
