@@ -5,6 +5,7 @@ body{
 }
 .container-fluid{
     padding: 0;
+    margin: 0;
 }
 .head{
     position: fixed;
@@ -14,7 +15,7 @@ body{
 #Q12{
     background-image: url(images/background.png);
     background-size: cover; 
-    padding: 0;
+    padding: 250px 0 200px;
     margin: 0;
 }
 .hd{
@@ -22,9 +23,6 @@ body{
     height: 45px;
     display: flex;
     align-items: center;
-    /* position: fixed; */
-    /* top: 0; */
-    /* width: 100%; */
 }
 .moreinfo{
     display: flex;
@@ -66,14 +64,24 @@ nav > div{
 .navlink{
     display: flex;
     align-items: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-style: normal;
+    size: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.navlink:hover{
+    color: #EE2B7A;
 }
 ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
-a{
-    text-decoration: none;
-    color : #FFFFFF;
+.navbar-toggler{
+    width: 10%;
+    filter: brightness(0) invert(1);
+    margin: 0 15px;
 }
 .button{
     background: #EE2B7A;
@@ -138,10 +146,6 @@ a{
     font-weight: 400;
     font-size: 2.5rem;
     font-style: normal;
-}
-#Q12{
-    padding-top: 250px;
-    padding-bottom: 200px;
 }
 .call{
     display: flex;
@@ -248,6 +252,7 @@ a{
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgba(57, 7, 70, 0.74);
+    mix-blend-mode: multiply;
 }
 .workflowhd{
     font-size: 14px;
