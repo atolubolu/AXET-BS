@@ -2,6 +2,7 @@
 body{
     overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
+    width: 100%;
 }
 .container-fluid{
     padding: 0;
@@ -17,17 +18,20 @@ body{
     background-size: cover; 
     padding: 250px 0 200px;
     margin: 0;
+    width: 100%;
 }
 .hd{
     background: #772D8B;
     height: 45px;
     display: flex;
     align-items: center;
+    width: 100%;
+    margin: 0;
 }
 .moreinfo{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 0 30px;
     padding-left: 7%;
 }
@@ -74,6 +78,9 @@ nav > div{
 .navlink:hover{
     color: #EE2B7A;
 }
+.navbar{
+    padding: 0;
+}
 ul{
     display: flex;
     justify-content: space-evenly;
@@ -85,10 +92,14 @@ ul{
 }
 .button{
     background: #EE2B7A;
+    border-radius: 5px;
+    border: none;
 }
 .links{
     margin-bottom: 100px;
     background: #00000042;
+    width: 100%;
+    margin: 0;
 }
 .loginbox{
     background: #373737C9;
@@ -259,6 +270,7 @@ ul{
     font-style: normal;
     color: #D2CECE;
     text-align: center;
+    margin-top: 50px
 }
 .workflowsubhd{
     font-size: 40px;
@@ -304,7 +316,23 @@ ul{
     text-align: center;
     color: #FFFFFF;
 }
+.col-lg{
+    padding: 0;
+}
 @media screen and (max-width: 768px) {
+    .icons{
+        padding: 0;
+    }
+    .moreinfo{
+        padding: 0;
+    }
+    .button{
+        width: 20%;
+        text-align: center;
+    }
+    ul{
+        margin-left: 20px;
+    }
     .lgbhd{
         font-size: 24px;
     }
@@ -377,5 +405,9 @@ ul{
     }
     .service{
         width: 80%;
+    }
+    .navbar-toggler{
+        width: 20%;
+        margin: 0;
     }
 }
